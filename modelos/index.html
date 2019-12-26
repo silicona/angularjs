@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="MiApp">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body>
+
+	<div ng-controller="PrimerControlador">
+
+		<input type="text" ng-model="nombre">
+
+		<h2 style="display: inline-block;">{{ 'Hola ' + nombre }}</h2>
+
+		<div>
+			<label>Comentario</label>
+			<textarea ng-model="nuevoComentario.comentario"></textarea>
+		</div>
+
+		<div>
+			<label>Usuario:</label>
+			<input type="text" ng-model="nuevoComentario.username">
+		</div>
+
+		<div>
+			<button ng-click="agregarComentario()">Agregar comentario</button>
+		</div>
+
+		<ul>
+			<li ng-repeat="comentario in comentarios">
+				{{ comentario.comentario }} - <strong>{{ comentario.username }}</strong>
+			</li>
+		</ul>
+
+
+	</div>
+
+	<div ng-controller="OtroControlador">
+
+		<h2>{{ 'Hola ' + nombre }}</h2>
+
+	</div>
+
+
+</body>
+</html>

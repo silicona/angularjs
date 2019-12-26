@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="27"  lines-covered="16"  line-rate="0.5926"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1566072039884" complexity="0" version="0.1">
+<sources>
+	<source>/Applications/XAMPP/xamppfiles/htdocs/angularjs/test</source>
+</sources>
+<packages>
+	<package name="controladoresApp"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="app.js"  filename="../controladoresApp/app.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="1"  signature="()V" >
+				<lines><line number="6"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="6"  hits="1"  branch="false" />
+			<line number="8"  hits="1"  branch="false" />
+			<line number="10"  hits="1"  branch="false" />
+			<line number="12"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="factoriasApp"  line-rate="0.3333"  branch-rate="1" >
+	<classes>
+		<class name="app.js"  filename="../factoriasApp/app.js"  line-rate="0.3333"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="13"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="1"  branch="false" />
+			<line number="15"  hits="0"  branch="false" />
+			<line number="17"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="filtersApp"  line-rate="0.5625"  branch-rate="1" >
+	<classes>
+		<class name="app.js"  filename="../filtersApp/app.js"  line-rate="0.5625"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="1"  signature="()V" >
+				<lines><line number="3"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="1"  signature="()V" >
+				<lines><line number="5"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="1"  signature="()V" >
+				<lines><line number="11"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="1"  signature="()V" >
+				<lines><line number="12"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_5)"  hits="0"  signature="()V" >
+				<lines><line number="19"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_6)"  hits="0"  signature="()V" >
+				<lines><line number="21"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_7)"  hits="0"  signature="()V" >
+				<lines><line number="29"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="1"  branch="false" />
+			<line number="3"  hits="1"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="11"  hits="1"  branch="false" />
+			<line number="12"  hits="1"  branch="false" />
+			<line number="15"  hits="1"  branch="false" />
+			<line number="19"  hits="1"  branch="false" />
+			<line number="21"  hits="0"  branch="false" />
+			<line number="23"  hits="0"  branch="false" />
+			<line number="25"  hits="0"  branch="false" />
+			<line number="29"  hits="1"  branch="false" />
+			<line number="31"  hits="0"  branch="false" />
+			<line number="33"  hits="0"  branch="false" />
+			<line number="34"  hits="0"  branch="false" />
+			<line number="35"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="servicesApp"  line-rate="0.3333"  branch-rate="1" >
+	<classes>
+		<class name="app.js"  filename="../servicesApp/app.js"  line-rate="0.3333"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="25"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="2"  hits="1"  branch="false" />
+			<line number="27"  hits="0"  branch="false" />
+			<line number="48"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>

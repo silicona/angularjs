@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-core": "^3.4.0",
+    "karma": "^4.2.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^1.1.2",
+    "karma-firefox-launcher": "^1.2.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-diff-reporter": "^2.0.0",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-safari-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "scripts": {
+    "pre_test": "npm install",
+    "test": "karma start karma.conf.js",
+    "testjas": "jasmine"
+  }
+}

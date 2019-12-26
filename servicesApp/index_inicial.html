@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="moduloServicio">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+	<script type="text/javascript" src="../vendor/angular-local-storage_dist/angular-local-storage.min.js"></script>
+
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<div ng-controller="ServicesController">
+
+		<form ng-submit="anadirLista()">
+			<div>
+				<label>Descripcion</label>
+				<input type="text" ng-model="nuevaLista.descripcion">
+			</div>
+
+			<div>
+				<label>Fecha</label>
+				<!-- <input type="datetime-local" ng-model="nuevaLista.fecha = 2010-10-10T13:00"> -->
+				<input type="datetime-local" ng-model="nuevaLista.fecha">
+
+			</div>
+
+
+			<div>
+				<input type="submit" value="Añadir Lista">
+			</div>
+		</form>
+
+
+		<h2>Listas</h2>
+
+		<div>
+			<button ng-click="limpiar()">Limpiar listas</button>
+
+			<!-- <button ng-click="todo = []">Limpiar listas</button> -->
+
+		</div>
+
+		<ul>
+
+			<li ng-repeat="lista in listas">
+				
+				<!-- <h4>{{ lista.title }}</h4> -->
+
+				<p>
+					{{ lista.descripcion }}
+					<br>
+					Fecha - {{ lista.fecha | date: 'short' }}
+					<br>
+					<button ng-click="eliminarLista(lista)">Eliminar lista</button>
+
+				</p>
+
+			</li>
+			
+		</ul>
+
+
+	</div>
+
+
+
+
+</body>
+</html>

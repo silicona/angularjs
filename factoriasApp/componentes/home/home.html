@@ -1,0 +1,41 @@
+
+<div class="row">
+	
+	<div class="col-12">
+		
+		<h1>Bienvenida a la App de Services</h1>
+
+		<div class="panel">
+			
+			<div class="panel-heading">
+				
+				<h3 class="panel-title">Secciones</h3>
+
+			</div>
+
+			<div class="panel-body">
+				
+				<div class="row">
+					
+					<div class="col-4" ng-repeat="seccion in secciones">
+						
+						<div class="btn_inicio">
+							
+							<a href="{{ seccion.href }}">
+								
+								<i class="fa fa-{{ seccion.icono }}">{{ seccion.nombre }}</i>
+							</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	
+</div>

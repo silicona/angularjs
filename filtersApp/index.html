@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="moduloFiltros">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+	<script type="text/javascript" src="../vendor/angular-local-storage_dist/angular-local-storage.min.js"></script>
+
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<div ng-controller="FiltersController">
+
+		<h2>Filters</h2>
+
+		<div>
+			<p><a href="https://www.w3schools.com/angular/angular_filters.asp">	w3schools - angular-filters</a></p>
+		</div>
+
+		<div>
+			<p>Personalizado: Elimina etiquetas<p>
+			{{ miHtml }}
+			<br>
+			{{ miHtml | removeHtml }}
+		</div>
+
+		<div>JSON: {{ mi_json }} // {{ mi_json | json }}</div>
+
+	</div>
+
+
+
+
+</body>
+</html>

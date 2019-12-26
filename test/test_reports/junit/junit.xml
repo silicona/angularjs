@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 76.0.3809 (Mac OS X 10.13.6)" package="unit" timestamp="2019-08-17T20:00:39" id="0" hostname="iMac-de-Zakiah.home" tests="12" errors="0" failures="0" time="0.058">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36"/>
+  </properties>
+  <testcase name="Modulo Filters Filtros decorador decorator convierte en mayusculas" time="0.02" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Modulo Filters"/>
+  <testcase name="Modulo Filters Filtros decorador removeHtml elimina las etiquetas" time="0.004" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Modulo Filters"/>
+  <testcase name="Modulo Controladores Primer controlador Tiene nombre correcto" time="0.003" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Modulo Controladores"/>
+  <testcase name="Factorias Comp Listas ver" time="0.003" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Comp Listas"/>
+  <testcase name="Factorias Servicios ver" time="0.001" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Coches Debe devolver Factoria con varias listas" time="0.004" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Listas Se inicializa correctamente" time="0.007" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Listas Limpiar listas" time="0.004" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Listas Actualiza BBDD" time="0.003" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Listas Añade lista a BBDD" time="0.003" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Listas Obtiene las listas" time="0.003" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <testcase name="Factorias Servicios Factoria Listas Elimina lista" time="0.003" classname="Chrome_76_0_3809_(Mac_OS_X_10_13_6).unit.Factorias Servicios"/>
+  <system-out>
+    <![CDATA[Chrome 76.0.3809 (Mac OS X 10.13.6) ERROR
+  DisconnectedClient disconnected from CONNECTED state (transport error)
+,PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: undefined
+,PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: undefined
+,Chrome 76.0.3809 (Mac OS X 10.13.6) LOG: undefined
+,Chrome 76.0.3809 (Mac OS X 10.13.6) LOG: undefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="MiApp">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+		.animated {
+			opacity: 1;
+			max-height: initial;
+			overflow: hidden;
+			transition: all 2s;
+		}
+		
+		.animated.ng-hide {
+			opacity: 0;
+			max-height: 0px !important;
+			display: block !important;
+		}
+
+	</style>
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body>
+
+	<div ng-controller="MiController">
+
+		<h2>Rootscope</h2>
+
+		<p>
+			Herencia rootScope -> scope - nombre
+			<br>
+			rootScope: {{ $parent.nombre }}
+			<br>
+			scope - Padre: {{ nombre }}
+			<br>
+			<span ng-controller="HijoController">
+				Hijo: {{ nombre }}
+				<br>
+				Cambia el nombre del padre: 
+				<input type="text" ng-model="$parent.nombre" placeholder="$parent.nombre">
+			</span>
+		</p>
+
+	</div>
+
+
+
+
+</body>
+</html>

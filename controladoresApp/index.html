@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="moduloControladores">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+	<script type="text/javascript">
+
+		// Controlador del modulo MiApp
+		app.controller('OtroControlador', function($scope){
+			
+			//console.log($scope)
+			$scope.nombre = 'Otro nombre';
+		});
+
+	</script>
+</head>
+<body>
+
+	<div ng-controller="PrimerControlador">
+
+		<h2>{{ 'Hola ' + nombre }}</h2>
+
+	</div>
+
+	<div ng-controller="OtroControlador">
+
+		<h2>{{ 'Hola ' + nombre }}</h2>
+
+	</div>
+
+
+</body>
+</html>

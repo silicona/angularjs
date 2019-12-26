@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="unit" timestamp="2019-08-17T09:27:30" id="0" hostname="iMac-de-Zakiah.home" tests="8" errors="0" failures="1" time="0.024">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="Modulo Services Servicio Lista Debe devolver Servicio con varias listas" time="0.01" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Services">
+    <failure type="">Expected 0 to be 1.
+&lt;Jasmine&gt;
+specs/services/app_spec.js:48:30
+&lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Modulo Filters Filtros decorador decorator convierte en mayusculas" time="0.003" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Filters"/>
+  <testcase name="Modulo Filters Filtros decorador removeHtml elimina las etiquetas" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Filters"/>
+  <testcase name="Modulo Controladores Primer controlador Tiene nombre correcto" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Controladores"/>
+  <testcase name="Modulo Factorias Controlador Factorias Debe exponer las todas las listas" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Factorias"/>
+  <testcase name="Modulo Factorias Controlador Factorias Debe borrar todas las listas" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Factorias"/>
+  <testcase name="Modulo Factorias Factoria Lista Debe devolver Factoria con varias listas" time="0.003" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Factorias"/>
+  <testcase name="Modulo Factorias Factoria Coches Debe devolver Factoria con varias listas" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).unit.Modulo Factorias"/>
+  <system-out>
+    <![CDATA[PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: []
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

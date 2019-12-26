@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="mainModule">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+	<script type="text/javascript" src="../vendor/angular-local-storage_dist/angular-local-storage.min.js"></script>
+
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body>
+
+	<div ng-controller="WatchController">
+
+		<h2>Watcheando</h2>
+
+		<h4>{{ nombre }}</h4>
+
+		<div>
+			<p><button id="boton_sin_jquery">Cambiar nombre desde selector JS</button></p>
+
+			<p><button ng-click='cambiarNombre()'>Cambiar nombre desde Controller</button></p>
+
+			<p><button ng-click="nombre = 'nombre desde botón'">Cambiar nombre inline</button></p>
+		</div>
+
+	</div>
+
+</body>
+</html>

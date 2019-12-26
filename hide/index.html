@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="MiApp">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+		.animated {
+			opacity: 1;
+			max-height: initial;
+			overflow: hidden;
+			transition: all 2s;
+		}
+		
+		.animated.ng-hide {
+			opacity: 0;
+			max-height: 0px !important;
+			display: block !important;
+		}
+
+	</style>
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body>
+
+	<div ng-controller="PrimerControlador">
+
+		<div>
+			<label>Titulo</label>
+			<input type="text" ng-model="nuevoPost.title">
+		</div>
+
+		<div>
+			<label>Comentario</label>
+			<textarea ng-model="nuevoPost.body"></textarea>
+		</div>
+
+
+		<div>
+			<button ng-click="anadirPost()">Añadir Post</button>
+		</div>
+
+
+		<h2>Posts</h2>
+
+		<div ng-show="loading">Cargando ... </div>
+
+		<div ng-show="!loading && posts.length == 0">
+			<h3>No se encontraron resultados</h3>
+		</div>
+
+		<ul ng-hide="posts.length == 0" class="animated">
+
+			<li ng-repeat="post in posts">
+				
+				<h4>{{ post.title }}</h4>
+
+				<p> {{ post.body }}</p>
+
+				<p>Autor - {{ post.userId }}</p>
+
+			</li>
+			
+		</ul>
+
+
+	</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html ng-app="DirApp">
+<head>
+	<title>App | Angular JS</title>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular.min.js"></script>
+	<script type="text/javascript" src="../vendor/angular-1.7.8/angular-route.min.js"></script>
+
+	<script type="text/javascript" src="../vendor/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+
+	<script type="text/javascript" src="../vendor/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../vendor/jquery-ui-1.12.1/jquery-ui.min.css">
+
+	<script type="text/javascript" src="./app.js"></script>
+	<script type="text/javascript" src="./directivas.js"></script>
+	<script type="text/javascript" src="./controller.js"></script>
+
+	<style type="text/css">
+
+		body, html {
+			/*
+			text-align: center;
+			*/
+			background-color: #EEE;
+			margin: 0px;
+
+		}
+
+		body {
+			padding: 2ex;
+		}
+		
+		.circular {
+			border-radius: 50%;
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+		}
+
+		.no-list {
+			list-style-type: none;
+		}
+
+		.no-list .ng-scope {
+
+			display: inline-block;
+			min-width: 150px;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div ng-view></div>
+	<!--
+	<div ng-controller="ReposController">
+
+		<input type="text" name="" mi-autocomplete="nombres" placeholder="Buscar repositorio" class="aa">
+
+		<span ng-click="limpiarBuscador(this)">Limpiar</span>
+
+		<ul class="no-list" ng-cloak>
+			
+			<li ng-repeat="repo in repos" ng-hide="main_repo && main_repo != repo.name">
+				
+				<img style="width: 100px;" ng-src="{{ repo.owner.avatar_url }}">
+
+				 <div class="circular" style="background: url({{ repo.owner.avatar_url }}); background-position: center; background-size: cover"></div>
+
+				<div class="circular" back-img="{{ repo.owner.avatar_url }}"></div>
+
+				<h2>{{ repo.name }}</h2>
+
+			</li>
+		</ul>
+
+	</div>
+	-->
+
+
+</body>
+</html>
